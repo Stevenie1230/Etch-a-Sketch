@@ -1,0 +1,123 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(147, 118, 158);
+    margin-top: -30px;
+}
+
+h1{
+    font-size: 70px;
+    color: black;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 50px;
+    justify-content: space-evenly;
+}
+
+button{
+    width: 90px;
+    font-size: 30px;
+    background-color: rgb(228, 110, 237);
+    outline: none;
+}
+
+.colorAndPrompt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex;
+    margin: 60px;
+    font-size: 20px;
+    text-shadow: 2px 2px rgb(81, 141, 210);
+}
+
+#color{
+    margin-top: 5px;
+    margin-bottom: -20px;
+    width: 80px;
+    height: 30px;
+    box-shadow: 3px 3px;
+}
+
+#color:hover{
+    transform: scale(1.1);
+}
+
+#color:active{
+    transform: scale(1.2);
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+button:active{
+    transform: scale(1.2);
+}
+
+
+.sliderAndValue{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+
+.value{
+    font-size: 30px;
+    padding-left: 10px;
+    color: black;
+    text-shadow: 2px 2px white;
+
+}
+
+.grid{
+    margin-top: 50px;
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    border: 5px solid white;
+    border-radius: 5px;
+    height: 575px;
+    width: 575px;
+    background-color: gray;
+    box-shadow: 10px 10px;
+}
+
+.cell{
+    background-color: white;
+    border: 1px solid black;
+}
+
+footer{
+    font-size: 25px;
+    bottom: 0;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#gh-logo{
+    width: 35px;
+    height: 35px;
+    margin-bottom: -9px;
+    margin-right: 10px;
+}
